@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+/* Reset básico */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /* Hace que padding y border no aumenten el tamaño */
+  }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+
+  /* Variables CSS para colores (basadas en tu diseño) */
+  :root {
+    --primary-color: #1e3a5f;      /* Azul oscuro del header */
+    --secondary-color: #2563eb;    /* Azul botones */
+    --accent-color: #f59e0b;       /* Amarillo alertas */
+    --success-color: #10b981;      /* Verde "En horario" */
+    --danger-color: #ef4444;       /* Rojo "Retrasado" */
+    --warning-color: #f59e0b;      /* Amarillo "Embarcando" */
+    --text-dark: #1f2937;
+    --text-light: #6b7280;
+    --background-light: #f9fafb;
+  }
