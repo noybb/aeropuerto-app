@@ -1,10 +1,6 @@
 <!-- Este será nuestro contenedor principal-->
-<div class = "app-container">
-   <h1>Aeropuerto App</h1>
-   <p>Bienvenido a la aplicación del Aeropuerto</p>
-   <!-- Aquí se cargarán las diferentes páginas según la ruta-->
-    <!--  ¿Qué es <router-outlet>?
-  - Es un marcador de posición donde Angular cargará los diferentes componentes según la URL
-  - Ejemplo: cuando vayas a /vuelos, cargará el componente de vuelos ahí-->
-    <router-outlet></router-outlet>
+<app-header> </app-header>
+
+<div class="main-content">
+  <router-outlet> </router-outlet>
 </div>
